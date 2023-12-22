@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    padding: 5;
+    margin: 5;
+}
+
+body {
+    background-color: rgb(193, 165, 148);
+  
+}
+
+.header {
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+    background-color:rgb(109, 78, 55);
+    color: white;
+
+    
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+.header div {
+    padding-top: 20px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    
+  
+}
+
+.header div ul {
+    list-style-type: none;
+  
+}
+
+.header div ul li{
+    display: inline-block;
+    margin-left: 25px;
+    
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+  
+}
+
+p {
+    color: rgb(68, 46, 29);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.card-column {
+    flex: 1 0 100%;
+    padding: 1.5rem;
+    transition: flex-basis 500ms linear ;
+    margin-bottom: 1.5rem;
+  }
+
+  .code-card {
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 5rem;
+    color: black;
+    outline: 5px solid;
+    outline-color: rgb(109, 78, 55);
+    outline-offset: -2px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .jenphoto {
+    height: 500px;
+    width: 30%;
+    margin: auto;
+    margin-top: 15px;
+    background-image: url("file:///Users/jenifertorresnavarro/Desktop/Jen%20photo%20Small.jpeg");
+    background-size:cover;
+    background-position:center;
+    
+}
+  
+h2 {
+    color: rgb(68, 46, 29);
+    font-size: 30px;
+}
+
+footer {
+    color:rgb(68, 46, 29);
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+.footer .span {
+    padding: 30px;
+
+}
+
+.card-body {
+    font-size: 30px;
+    
+}
+
+.code-block {
+    font-size: 30px;
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+
+}
+
+.past-projects img {
+    margin-top: 50px;
+}
