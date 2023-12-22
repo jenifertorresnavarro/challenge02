@@ -70,6 +70,19 @@ p {
     justify-content: center;
 }
 
+
+.img {
+    height: 300px;
+    width: 30%;
+    margin: auto;
+    margin-top: 15px;
+    background-image: url("../images/photo01.jpeg");
+    background-size:cover;
+    
+   
+    
+}
+
 .card-column {
     flex: 1 0 100%;
     padding: 1.5rem;
@@ -90,16 +103,6 @@ p {
     transition: all 0.5s ease-in-out;
   }
 
-  .jenphoto {
-    height: 500px;
-    width: 30%;
-    margin: auto;
-    margin-top: 15px;
-    background-image: url("file:///Users/jenifertorresnavarro/Desktop/Jen%20photo%20Small.jpeg");
-    background-size:cover;
-    background-position:center;
-    
-}
   
 h2 {
     color: rgb(68, 46, 29);
